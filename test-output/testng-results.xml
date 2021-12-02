@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[User1 : 123]]>
+    </line>
+    <line>
+      <![CDATA[User2 : 456]]>
+    </line>
+    <line>
+      <![CDATA[User3 : 789]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57" started-at="2021-11-30T07:42:08Z" finished-at="2021-11-30T07:42:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57" started-at="2021-11-30T07:42:08Z" finished-at="2021-11-30T07:42:08Z">
+      <class name="selenium.testng_dataprovider">
+        <test-method status="PASS" signature="userDetails(java.lang.String, int)[pri:0, instance:selenium.testng_dataprovider@14bf9759]" name="userDetails" duration-ms="11" started-at="2021-11-29T23:42:08Z" data-provider="getData" finished-at="2021-11-29T23:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User1 : 123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method status="PASS" signature="userDetails(java.lang.String, int)[pri:0, instance:selenium.testng_dataprovider@14bf9759]" name="userDetails" duration-ms="3" started-at="2021-11-29T23:42:08Z" data-provider="getData" finished-at="2021-11-29T23:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User2 : 456]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method status="PASS" signature="userDetails(java.lang.String, int)[pri:0, instance:selenium.testng_dataprovider@14bf9759]" name="userDetails" duration-ms="4" started-at="2021-11-29T23:42:08Z" data-provider="getData" finished-at="2021-11-29T23:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User3 : 789]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+      </class> <!-- selenium.testng_dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
